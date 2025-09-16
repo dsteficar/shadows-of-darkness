@@ -1,0 +1,650 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.14f1 (b2c9b1ac6cc0) revision 11717041'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.2.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/UnityProject/ShadowsOfDarkness
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50204
+Successfully changed project path to: E:/UnityProject/ShadowsOfDarkness
+E:/UnityProject/ShadowsOfDarkness
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23468] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2632048700 [EditorId] 2632048700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SCG8LV1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23468] Host "[IP] 192.168.0.114 [Port] 0 [Flags] 2 [Guid] 2632048700 [EditorId] 2632048700 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SCG8LV1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 15.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.14f1 (b2c9b1ac6cc0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/UnityProject/ShadowsOfDarkness/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.14f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010894 seconds.
+- Loaded All Assemblies, in  0.305 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.220 seconds
+Domain Reload Profiling:
+	ReloadAssembly (182ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (114ms)
+				TypeCache.Initialize (113ms)
+					TypeCache.ScanAssembly (112ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (172ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.176 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling:
+	ReloadAssembly (223ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (951ms)
+			LoadAssemblies (646ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+				TypeCache.Initialize (339ms)
+					TypeCache.ScanAssembly (335ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (304ms)
+				ProcessInitializeOnLoadMethodAttributes (171ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6183 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.6 MB). Loaded Objects now: 6655.
+Memory consumption went from 272.3 MB to 268.7 MB.
+Total: 4.716200 ms (FindLiveObjects: 0.554700 ms CreateObjectMapping: 0.165800 ms MarkObjects: 3.128600 ms  DeleteObjects: 0.865400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2302.287197 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6416d0e2640699fdd2e7a7c24b9af4c9') in 2.134598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 126.900735 seconds.
+  path: Assets/Cards/Materials/DeerCard_MAT/Deet_MAT 1.mat
+  artifactKey: Guid(a16b638e835f60248965c6dfcc68aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Materials/DeerCard_MAT/Deet_MAT 1.mat using Guid(a16b638e835f60248965c6dfcc68aa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1387f33d22fe1b56292e7985bfbeb96') in 0.032395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.106768 seconds.
+  path: Assets/Cards/Deer_Card.fbx
+  artifactKey: Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card.fbx using Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f76682d524fbe5602565a9f5be64f6') in 0.049335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 306.645616 seconds.
+  path: Assets/DoTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(df411541c6e3d25409f85ccb8932d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoTween/Editor/Imgs/DOTweenIcon.png using Guid(df411541c6e3d25409f85ccb8932d19f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72557ca13ad19d8d667665df7571533') in 0.014491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018345 seconds.
+  path: Assets/DoTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(d656927d9e7dd3649abbe5bf3face701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoTween/Editor/Imgs/Footer.png using Guid(d656927d9e7dd3649abbe5bf3face701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff6d505f67d0a5219bf51d936c3cfe2') in 0.013951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022763 seconds.
+  path: Assets/DoTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(0d3b6b901c7949344bcf2516a75353d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoTween/Editor/Imgs/Footer_dark.png using Guid(0d3b6b901c7949344bcf2516a75353d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba29f541e052865a758afc461a7cf6b') in 0.008754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DoTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(7cd74d61297a8ca48a5f65aed7f72278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DoTween/Editor/Imgs/Header.jpg using Guid(7cd74d61297a8ca48a5f65aed7f72278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f80c6d382333c83f90eb6aba0a3f7f4') in 0.008453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TutorialInfo/Icons/Help_Icon.png
+  artifactKey: Guid(9266273b8f123004195741f969177dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/Help_Icon.png using Guid(9266273b8f123004195741f969177dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b45425924247596af93d425417fcee9') in 0.010830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 213.007373 seconds.
+  path: Assets/Cards/Deer_Card.fbx
+  artifactKey: Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card.fbx using Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea7f9ba61304e7edf26698fb5a87ecf') in 0.036610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.901 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.328 seconds
+Domain Reload Profiling:
+	ReloadAssembly (285ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (31ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		LoadAllAssembliesAndSetupDomain (613ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+				TypeCache.Initialize (390ms)
+					TypeCache.ScanAssembly (383ms)
+				ResolveRequiredComponents (11ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5851 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.6 MB). Loaded Objects now: 6824.
+Memory consumption went from 239.8 MB to 236.2 MB.
+Total: 4.757800 ms (FindLiveObjects: 0.573100 ms CreateObjectMapping: 0.150300 ms MarkObjects: 3.334900 ms  DeleteObjects: 0.698200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143.565662 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d40864b86d428aa56509bd3fcfd179e') in 0.045942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caef2cc453ab871cccafdcb66530a70') in 0.625660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 80
+========================================================================
+Received Import Request.
+  Time since last request: 29.090364 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949f3117d6f5047e15ed72c94de52cdc') in 0.007750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27915d8a4ac4843115e52fd31a5ef71') in 0.022403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 6.227421 seconds.
+  path: Assets/Cards/Testing/Deer_Card.fbx
+  artifactKey: Guid(ba05a2df4b201aa4f814453814ae3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Testing/Deer_Card.fbx using Guid(ba05a2df4b201aa4f814453814ae3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c735278ac2259bf667067262a0159e') in 0.105895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 6.466139 seconds.
+  path: Assets/Cards/Materials/DeerCard_MAT/Deet_MAT.mat
+  artifactKey: Guid(6312ea937078b754bbe1ee28156edf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Materials/DeerCard_MAT/Deet_MAT.mat using Guid(6312ea937078b754bbe1ee28156edf11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf88abf4237b2b06b142a4a05e8349f5') in 0.019095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.160575 seconds.
+  path: Assets/Cards/Materials/DeerCard_MAT/Deet_MAT 1.mat
+  artifactKey: Guid(07afb45b428aa714c9017375a0b58d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Materials/DeerCard_MAT/Deet_MAT 1.mat using Guid(07afb45b428aa714c9017375a0b58d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8829325933c91818a2be9c2fb953d01b') in 0.018188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.960517 seconds.
+  path: Assets/Cards/Deer_Card.fbx
+  artifactKey: Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card.fbx using Guid(697ec1bb61f609645b0b93029aa41cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefb515f33edc51d71b455030eea8ea5') in 0.043820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 12.320789 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001821db84583579c586cc5c8383b1e5') in 0.006164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561cff3f1fe06b09963aedc0f2ccc587') in 0.026559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 6.611701 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fb6c01a18e49a179098a6ec9bdb495') in 0.012084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60c6da13206a6b7aa394b04832f44e3') in 0.025327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 551.405413 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8408de20b5431889cab0a4a1d5d474b') in 0.011457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42108266b77d0c46c3b144a4a27a2a80') in 0.035941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 12.030472 seconds.
+  path: Assets/Cards/Deer_BaseColor.png
+  artifactKey: Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_BaseColor.png using Guid(4035b0822f80aee41b50e4ff9fcee3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd37cee8c920b1ad13393e4fead7b84c') in 0.151804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cards/Deer_Card Variant.prefab
+  artifactKey: Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Deer_Card Variant.prefab using Guid(496dcee5b38bfe44b823b9b4f8fb4687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308b759e30518e2aa927ad34bed4b9ff') in 0.026003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 162.419183 seconds.
+  path: Assets/Cards/Testing/Deer_Card.fbx
+  artifactKey: Guid(ba05a2df4b201aa4f814453814ae3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cards/Testing/Deer_Card.fbx using Guid(ba05a2df4b201aa4f814453814ae3c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de71f2a187a21974d7705b5a986ee275') in 0.099707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.911 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (277ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		LoadAllAssembliesAndSetupDomain (631ms)
+			LoadAssemblies (281ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (408ms)
+				TypeCache.Initialize (396ms)
+					TypeCache.ScanAssembly (386ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (295ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.6 MB). Loaded Objects now: 6936.
+Memory consumption went from 237.8 MB to 234.2 MB.
+Total: 5.618500 ms (FindLiveObjects: 0.876400 ms CreateObjectMapping: 0.171600 ms MarkObjects: 3.712400 ms  DeleteObjects: 0.856800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 253.100031 seconds.
+  path: Assets/Scripts/Cards/CardDrawing.cs
+  artifactKey: Guid(b851930c0b1a0e846985f2850d8ddad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cards/CardDrawing.cs using Guid(b851930c0b1a0e846985f2850d8ddad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558aac3739a63ea7166a564aa1df8e40') in 0.001735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.761181 seconds.
+  path: Assets/Scripts/Cards/HolderScaling.cs
+  artifactKey: Guid(f3a919c66c7f28746a5b85139c210f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cards/HolderScaling.cs using Guid(f3a919c66c7f28746a5b85139c210f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8204e1289e5c909772c194ec414122bb') in 0.000509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.323586 seconds.
+  path: Assets/Scripts/Cards/OLD_HolderScaling.cs
+  artifactKey: Guid(f3a919c66c7f28746a5b85139c210f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cards/OLD_HolderScaling.cs using Guid(f3a919c66c7f28746a5b85139c210f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab066dbdf4f81d818a89a23abd526e14') in 0.000466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.915 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (247ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		LoadAllAssembliesAndSetupDomain (666ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+				TypeCache.Initialize (432ms)
+					TypeCache.ScanAssembly (425ms)
+				ResolveRequiredComponents (10ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (40ms)
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.6 MB). Loaded Objects now: 6939.
+Memory consumption went from 237.6 MB to 234.0 MB.
+Total: 4.129600 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.149200 ms MarkObjects: 2.827900 ms  DeleteObjects: 0.634700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.626710 seconds.
+  path: Assets/Scripts/Cards/CardDraging.cs
+  artifactKey: Guid(6580349b524fbe14fba26fb521a5b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Cards/CardDraging.cs using Guid(6580349b524fbe14fba26fb521a5b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f7433b4182c0fa3de497260a7912ac') in 0.001795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\UnityProject\ShadowsOfDarkness\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.968 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.335 seconds
+Domain Reload Profiling:
+	ReloadAssembly (284ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		LoadAllAssembliesAndSetupDomain (680ms)
+			LoadAssemblies (293ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (461ms)
+				TypeCache.Initialize (440ms)
+					TypeCache.ScanAssembly (432ms)
+				ResolveRequiredComponents (12ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (455ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5845 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.6 MB). Loaded Objects now: 6943.
+Memory consumption went from 237.6 MB to 234.1 MB.
+Total: 6.836500 ms (FindLiveObjects: 0.640700 ms CreateObjectMapping: 0.149600 ms MarkObjects: 4.361300 ms  DeleteObjects: 1.683300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
